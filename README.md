@@ -1,4 +1,4 @@
-# node-fips
+# OpenSSL Fips enabled in a Fedora Environment
 
 > A Dockerfile and helper script to create Fedora 34 image with a FIPS
 compliant OpenSSL module loaded.
