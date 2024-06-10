@@ -26,4 +26,4 @@ docker run -it -e "OPENSSL_FIPS=1" --name gcosta/node-fips /bin/bash
 OR editing `/etc/ssl/openssl.cnf` and enabling FIPS mode once in the container:
 ```
 fips_mode = yes
-```
+``` 
