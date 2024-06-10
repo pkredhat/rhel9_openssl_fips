@@ -16,7 +16,7 @@ cd "$(dirname $0)/.."
 rm -rf dist
 mkdir -p dist
 cd dist
-
+ 
 
 # Download source code packages
 curl -s "https://www.openssl.org/source/$opensslfips.tar.gz" > "$opensslfips.tar.gz"
