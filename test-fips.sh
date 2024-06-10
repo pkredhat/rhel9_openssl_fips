@@ -9,7 +9,7 @@ then
 else
   echo "OpenSSL FIPS looks good"
 fi
-
+ 
 # Ditto with Node.js
 #if node --enable-fips -e "require('crypto').createHash('md5').update('')" &> /dev/null
 #then
